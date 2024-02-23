@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 Not Found</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+
+  .error-box {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: blink-animation 1s infinite;
+  }
+  @keyframes blink-animation {
+    50% {
+      opacity: 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="error-box">
+    <h1>404 Not Found</h1>
+    <p>This page could not be found. Please check the URL or try again later.</p>
+  </div>
+</body>
+</html>
 
